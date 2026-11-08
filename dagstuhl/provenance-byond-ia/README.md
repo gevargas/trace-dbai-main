@@ -228,41 +228,6 @@ FROM assessments
 WHERE case_id = 't00_hidden';
 ```
 
-## Creating your GitHub repository
-
-Suggested repository name: `evidence-provenance-experiment`.
-
-Suggested description:
-
-> Reproducible synthetic experiments on evidence provenance, dependency-aware corroboration, conflict, and purpose-specific revision, with an offline graph explorer.
-
-Create an empty repository under your own GitHub account. Locally, extract the package, replace its existing README with this file, and open a terminal in the folder containing `experiment.py`.
-
-Run the following commands after replacing `YOUR_GITHUB_USERNAME` with your account name. If you choose a different repository name, update the URL accordingly.
-
-```bash
-git init
-git branch -M main
-git add .
-git commit -m "Initial release of the evidence provenance experiment"
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/evidence-provenance-experiment.git
-git push -u origin main
-```
-
-These commands assume a new local repository and an empty GitHub remote. GitHub authentication is handled by your local Git setup.
-
-Before staging files, a minimal `.gitignore` can exclude temporary Python and operating-system files:
-
-```gitignore
-__pycache__/
-*.py[cod]
-.venv/
-.DS_Store
-Thumbs.db
-```
-
-Keep the supplied `results/` directory if you want readers to inspect the demonstration without running Python. Update the README's measured-results table if later code or dataset changes alter the results. Add a licence selected by the repository owner; this README does not assign licensing terms. Add verified publication and citation metadata when available.
-
 ## Limitations and next steps
 
 The experiment assumes a frozen assessment policy, accepted annotations, and a small declared completion set. It does not enumerate arbitrary unknown dependencies, infer source credibility, or validate cultural interpretations. The engine and reference oracle use different algorithms but share the policy being tested.
