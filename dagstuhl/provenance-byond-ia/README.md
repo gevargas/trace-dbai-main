@@ -1,6 +1,6 @@
 # Evidence Provenance Experiment
 
-A reproducible research prototype for **recursive evidence, dependency-aware corroboration, and contestable provenance** in AI-mediated knowledge production.
+A reproducible research prototype for **recursive evidence, dependency-aware corroboration, and contestable provenance** in AI-mediated knowledge production. This example represents the vision paper on VLDB.
 
 The experiment asks whether a database can distinguish multiple documents from multiple independent evidential origins, preserve conflicting evidence, and revise assessments when a source is retracted or becomes inadmissible for a particular purpose.
 
