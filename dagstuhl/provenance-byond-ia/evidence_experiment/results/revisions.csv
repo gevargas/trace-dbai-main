@@ -1,0 +1,361 @@
+case_id,operation,purpose,affected_claims,equal_to_full,preserved_unrelated,incremental_ns,full_ns
+t00_independent,retract_observation,research,"['c', 'd']",True,True,66250,55500
+t00_independent,add_challenge,research,"['c', 'd']",True,True,97166,63875
+t00_independent,withdraw_public_permission,public,"['c', 'd']",True,True,67125,53916
+t00_repeated,retract_observation,research,"['c', 'd']",True,True,67542,53792
+t00_repeated,add_challenge,research,"['c', 'd']",True,True,73333,62333
+t00_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,67541,52916
+t00_circular,retract_observation,research,[],True,True,45708,42416
+t00_circular,add_challenge,research,"['c', 'd']",True,True,55459,47000
+t00_circular,withdraw_public_permission,public,[],True,True,45209,49500
+t00_shared_tool,retract_observation,research,"['c', 'd']",True,True,71667,58875
+t00_shared_tool,add_challenge,research,"['c', 'd']",True,True,78583,67500
+t00_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,94791,73875
+t00_hidden,retract_observation,research,"['c', 'd']",True,True,67708,54542
+t00_hidden,add_challenge,research,"['c', 'd']",True,True,72500,59042
+t00_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,66250,98666
+t00_conflict,retract_observation,research,"['c', 'd']",True,True,76542,63917
+t00_conflict,add_challenge,research,"['c', 'd']",True,True,87209,87625
+t00_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,75833,65208
+t01_independent,retract_observation,research,"['c', 'd']",True,True,77667,65250
+t01_independent,add_challenge,research,"['c', 'd']",True,True,106250,71042
+t01_independent,withdraw_public_permission,public,"['c', 'd']",True,True,73959,62334
+t01_repeated,retract_observation,research,"['c', 'd']",True,True,88292,60083
+t01_repeated,add_challenge,research,"['c', 'd']",True,True,79083,67708
+t01_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,71083,60542
+t01_circular,retract_observation,research,[],True,True,46792,42167
+t01_circular,add_challenge,research,"['c', 'd']",True,True,56166,46875
+t01_circular,withdraw_public_permission,public,[],True,True,44875,45583
+t01_shared_tool,retract_observation,research,"['c', 'd']",True,True,95500,72708
+t01_shared_tool,add_challenge,research,"['c', 'd']",True,True,128333,90500
+t01_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,82333,69833
+t01_hidden,retract_observation,research,"['c', 'd']",True,True,82500,63125
+t01_hidden,add_challenge,research,"['c', 'd']",True,True,84375,72542
+t01_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,77667,63958
+t01_conflict,retract_observation,research,"['c', 'd']",True,True,88500,75292
+t01_conflict,add_challenge,research,"['c', 'd']",True,True,93125,79333
+t01_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,86583,74833
+t02_independent,retract_observation,research,"['c', 'd']",True,True,110667,74375
+t02_independent,add_challenge,research,"['c', 'd']",True,True,94291,83250
+t02_independent,withdraw_public_permission,public,"['c', 'd']",True,True,84541,74333
+t02_repeated,retract_observation,research,"['c', 'd']",True,True,90125,75917
+t02_repeated,add_challenge,research,"['c', 'd']",True,True,90417,78209
+t02_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,107083,78291
+t02_circular,retract_observation,research,[],True,True,45958,49250
+t02_circular,add_challenge,research,"['c', 'd']",True,True,56000,47250
+t02_circular,withdraw_public_permission,public,[],True,True,43708,40792
+t02_shared_tool,retract_observation,research,"['c', 'd']",True,True,96250,81334
+t02_shared_tool,add_challenge,research,"['c', 'd']",True,True,103958,97667
+t02_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,91125,77916
+t02_hidden,retract_observation,research,"['c', 'd']",True,True,91958,75625
+t02_hidden,add_challenge,research,"['c', 'd']",True,True,117333,83333
+t02_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,87125,73917
+t02_conflict,retract_observation,research,"['c', 'd']",True,True,101666,84750
+t02_conflict,add_challenge,research,"['c', 'd']",True,True,117792,92125
+t02_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,96417,83083
+t03_independent,retract_observation,research,"['c', 'd']",True,True,69916,59417
+t03_independent,add_challenge,research,"['c', 'd']",True,True,78292,63250
+t03_independent,withdraw_public_permission,public,"['c', 'd']",True,True,68208,66000
+t03_repeated,retract_observation,research,"['c', 'd']",True,True,70375,55959
+t03_repeated,add_challenge,research,"['c', 'd']",True,True,73958,64209
+t03_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,73667,60292
+t03_circular,retract_observation,research,[],True,True,49334,46375
+t03_circular,add_challenge,research,"['c', 'd']",True,True,60500,52666
+t03_circular,withdraw_public_permission,public,[],True,True,49416,45667
+t03_shared_tool,retract_observation,research,"['c', 'd']",True,True,75458,64250
+t03_shared_tool,add_challenge,research,"['c', 'd']",True,True,83291,74583
+t03_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,73084,63042
+t03_hidden,retract_observation,research,"['c', 'd']",True,True,73083,63834
+t03_hidden,add_challenge,research,"['c', 'd']",True,True,76333,64875
+t03_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,71666,57625
+t03_conflict,retract_observation,research,"['c', 'd']",True,True,83667,69500
+t03_conflict,add_challenge,research,"['c', 'd']",True,True,93292,76958
+t03_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,81583,68791
+t04_independent,retract_observation,research,"['c', 'd']",True,True,82125,67625
+t04_independent,add_challenge,research,"['c', 'd']",True,True,84541,73667
+t04_independent,withdraw_public_permission,public,"['c', 'd']",True,True,99709,67917
+t04_repeated,retract_observation,research,"['c', 'd']",True,True,109792,67875
+t04_repeated,add_challenge,research,"['c', 'd']",True,True,101875,75875
+t04_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,77875,81959
+t04_circular,retract_observation,research,[],True,True,49125,46792
+t04_circular,add_challenge,research,"['c', 'd']",True,True,70458,53167
+t04_circular,withdraw_public_permission,public,[],True,True,51208,47375
+t04_shared_tool,retract_observation,research,"['c', 'd']",True,True,90250,83917
+t04_shared_tool,add_challenge,research,"['c', 'd']",True,True,97625,82416
+t04_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,90541,74625
+t04_hidden,retract_observation,research,"['c', 'd']",True,True,104250,69917
+t04_hidden,add_challenge,research,"['c', 'd']",True,True,85708,75208
+t04_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,82000,69125
+t04_conflict,retract_observation,research,"['c', 'd']",True,True,92291,77208
+t04_conflict,add_challenge,research,"['c', 'd']",True,True,98000,84167
+t04_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,112584,78792
+t05_independent,retract_observation,research,"['c', 'd']",True,True,91125,76917
+t05_independent,add_challenge,research,"['c', 'd']",True,True,95000,83541
+t05_independent,withdraw_public_permission,public,"['c', 'd']",True,True,87875,76541
+t05_repeated,retract_observation,research,"['c', 'd']",True,True,87500,80833
+t05_repeated,add_challenge,research,"['c', 'd']",True,True,93208,82125
+t05_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,90208,86125
+t05_circular,retract_observation,research,[],True,True,48875,46750
+t05_circular,add_challenge,research,"['c', 'd']",True,True,71917,61666
+t05_circular,withdraw_public_permission,public,[],True,True,48750,46000
+t05_shared_tool,retract_observation,research,"['c', 'd']",True,True,97542,83875
+t05_shared_tool,add_challenge,research,"['c', 'd']",True,True,107333,89208
+t05_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,96917,84875
+t05_hidden,retract_observation,research,"['c', 'd']",True,True,91625,78084
+t05_hidden,add_challenge,research,"['c', 'd']",True,True,103125,84958
+t05_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,89250,76834
+t05_conflict,retract_observation,research,"['c', 'd']",True,True,102667,109042
+t05_conflict,add_challenge,research,"['c', 'd']",True,True,109291,96083
+t05_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,100792,87833
+t06_independent,retract_observation,research,"['c', 'd']",True,True,95250,64833
+t06_independent,add_challenge,research,"['c', 'd']",True,True,83708,70084
+t06_independent,withdraw_public_permission,public,"['c', 'd']",True,True,74791,63625
+t06_repeated,retract_observation,research,"['c', 'd']",True,True,76709,59833
+t06_repeated,add_challenge,research,"['c', 'd']",True,True,76042,66083
+t06_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,72250,59750
+t06_circular,retract_observation,research,[],True,True,53875,51250
+t06_circular,add_challenge,research,"['c', 'd']",True,True,63416,55750
+t06_circular,withdraw_public_permission,public,[],True,True,54667,52167
+t06_shared_tool,retract_observation,research,"['c', 'd']",True,True,81291,70000
+t06_shared_tool,add_challenge,research,"['c', 'd']",True,True,86250,76500
+t06_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,83417,69875
+t06_hidden,retract_observation,research,"['c', 'd']",True,True,81125,63750
+t06_hidden,add_challenge,research,"['c', 'd']",True,True,80208,100791
+t06_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,108500,66250
+t06_conflict,retract_observation,research,"['c', 'd']",True,True,85458,72917
+t06_conflict,add_challenge,research,"['c', 'd']",True,True,93708,79250
+t06_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,83041,71500
+t07_independent,retract_observation,research,"['c', 'd']",True,True,84209,71917
+t07_independent,add_challenge,research,"['c', 'd']",True,True,99709,89167
+t07_independent,withdraw_public_permission,public,"['c', 'd']",True,True,86334,69958
+t07_repeated,retract_observation,research,"['c', 'd']",True,True,103958,71459
+t07_repeated,add_challenge,research,"['c', 'd']",True,True,90667,88958
+t07_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,81375,67958
+t07_circular,retract_observation,research,[],True,True,52125,49959
+t07_circular,add_challenge,research,"['c', 'd']",True,True,68042,55250
+t07_circular,withdraw_public_permission,public,[],True,True,52958,77292
+t07_shared_tool,retract_observation,research,"['c', 'd']",True,True,110708,80208
+t07_shared_tool,add_challenge,research,"['c', 'd']",True,True,98625,96958
+t07_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,91167,76708
+t07_hidden,retract_observation,research,"['c', 'd']",True,True,85291,71291
+t07_hidden,add_challenge,research,"['c', 'd']",True,True,88167,76458
+t07_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,82458,70750
+t07_conflict,retract_observation,research,"['c', 'd']",True,True,96416,82833
+t07_conflict,add_challenge,research,"['c', 'd']",True,True,127667,89750
+t07_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,96000,82959
+t08_independent,retract_observation,research,"['c', 'd']",True,True,93500,87833
+t08_independent,add_challenge,research,"['c', 'd']",True,True,103042,100208
+t08_independent,withdraw_public_permission,public,"['c', 'd']",True,True,301458,89000
+t08_repeated,retract_observation,research,"['c', 'd']",True,True,94083,80541
+t08_repeated,add_challenge,research,"['c', 'd']",True,True,105708,91083
+t08_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,89708,82583
+t08_circular,retract_observation,research,[],True,True,56708,52208
+t08_circular,add_challenge,research,"['c', 'd']",True,True,95917,59791
+t08_circular,withdraw_public_permission,public,[],True,True,56708,53250
+t08_shared_tool,retract_observation,research,"['c', 'd']",True,True,99666,88250
+t08_shared_tool,add_challenge,research,"['c', 'd']",True,True,114166,98125
+t08_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,104042,125916
+t08_hidden,retract_observation,research,"['c', 'd']",True,True,95000,80750
+t08_hidden,add_challenge,research,"['c', 'd']",True,True,99541,85708
+t08_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,92042,83875
+t08_conflict,retract_observation,research,"['c', 'd']",True,True,109083,92417
+t08_conflict,add_challenge,research,"['c', 'd']",True,True,115292,111416
+t08_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,108750,92625
+t09_independent,retract_observation,research,"['c', 'd']",True,True,89000,56042
+t09_independent,add_challenge,research,"['c', 'd']",True,True,83417,62375
+t09_independent,withdraw_public_permission,public,"['c', 'd']",True,True,67917,54709
+t09_repeated,retract_observation,research,"['c', 'd']",True,True,64167,51959
+t09_repeated,add_challenge,research,"['c', 'd']",True,True,70125,58167
+t09_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,60875,50750
+t09_circular,retract_observation,research,[],True,True,45042,42209
+t09_circular,add_challenge,research,"['c', 'd']",True,True,56250,46583
+t09_circular,withdraw_public_permission,public,[],True,True,45042,40958
+t09_shared_tool,retract_observation,research,"['c', 'd']",True,True,71833,60292
+t09_shared_tool,add_challenge,research,"['c', 'd']",True,True,102459,77167
+t09_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,71541,60250
+t09_hidden,retract_observation,research,"['c', 'd']",True,True,68833,55875
+t09_hidden,add_challenge,research,"['c', 'd']",True,True,72250,60792
+t09_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,66500,55584
+t09_conflict,retract_observation,research,"['c', 'd']",True,True,73833,64459
+t09_conflict,add_challenge,research,"['c', 'd']",True,True,82375,69833
+t09_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,76875,62083
+t10_independent,retract_observation,research,"['c', 'd']",True,True,77792,63541
+t10_independent,add_challenge,research,"['c', 'd']",True,True,81333,69625
+t10_independent,withdraw_public_permission,public,"['c', 'd']",True,True,73125,62541
+t10_repeated,retract_observation,research,"['c', 'd']",True,True,78750,61167
+t10_repeated,add_challenge,research,"['c', 'd']",True,True,79333,67458
+t10_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,72833,61250
+t10_circular,retract_observation,research,[],True,True,44750,41834
+t10_circular,add_challenge,research,"['c', 'd']",True,True,58084,47584
+t10_circular,withdraw_public_permission,public,[],True,True,44208,41375
+t10_shared_tool,retract_observation,research,"['c', 'd']",True,True,84166,70458
+t10_shared_tool,add_challenge,research,"['c', 'd']",True,True,113791,77417
+t10_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,83500,70375
+t10_hidden,retract_observation,research,"['c', 'd']",True,True,74916,63333
+t10_hidden,add_challenge,research,"['c', 'd']",True,True,81209,69959
+t10_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,73416,62583
+t10_conflict,retract_observation,research,"['c', 'd']",True,True,86500,72583
+t10_conflict,add_challenge,research,"['c', 'd']",True,True,91709,79042
+t10_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,86208,73459
+t11_independent,retract_observation,research,"['c', 'd']",True,True,280958,77084
+t11_independent,add_challenge,research,"['c', 'd']",True,True,111042,80458
+t11_independent,withdraw_public_permission,public,"['c', 'd']",True,True,84625,74166
+t11_repeated,retract_observation,research,"['c', 'd']",True,True,84250,70833
+t11_repeated,add_challenge,research,"['c', 'd']",True,True,91083,79042
+t11_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,108042,76375
+t11_circular,retract_observation,research,[],True,True,47167,43791
+t11_circular,add_challenge,research,"['c', 'd']",True,True,58042,47709
+t11_circular,withdraw_public_permission,public,[],True,True,45667,41667
+t11_shared_tool,retract_observation,research,"['c', 'd']",True,True,94333,79416
+t11_shared_tool,add_challenge,research,"['c', 'd']",True,True,104042,88792
+t11_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,91167,81417
+t11_hidden,retract_observation,research,"['c', 'd']",True,True,89167,74083
+t11_hidden,add_challenge,research,"['c', 'd']",True,True,116334,82958
+t11_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,85209,73084
+t11_conflict,retract_observation,research,"['c', 'd']",True,True,99375,92250
+t11_conflict,add_challenge,research,"['c', 'd']",True,True,106625,100250
+t11_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,97083,86583
+t12_independent,retract_observation,research,"['c', 'd']",True,True,71042,57791
+t12_independent,add_challenge,research,"['c', 'd']",True,True,93958,73250
+t12_independent,withdraw_public_permission,public,"['c', 'd']",True,True,71750,57750
+t12_repeated,retract_observation,research,"['c', 'd']",True,True,69292,60000
+t12_repeated,add_challenge,research,"['c', 'd']",True,True,83709,77750
+t12_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,79375,57959
+t12_circular,retract_observation,research,[],True,True,48833,46083
+t12_circular,add_challenge,research,"['c', 'd']",True,True,60750,50417
+t12_circular,withdraw_public_permission,public,[],True,True,48459,45167
+t12_shared_tool,retract_observation,research,"['c', 'd']",True,True,76250,65208
+t12_shared_tool,add_challenge,research,"['c', 'd']",True,True,83459,69750
+t12_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,75000,64458
+t12_hidden,retract_observation,research,"['c', 'd']",True,True,69791,58500
+t12_hidden,add_challenge,research,"['c', 'd']",True,True,75042,63041
+t12_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,95666,67625
+t12_conflict,retract_observation,research,"['c', 'd']",True,True,77958,66791
+t12_conflict,add_challenge,research,"['c', 'd']",True,True,91583,90458
+t12_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,79459,68917
+t13_independent,retract_observation,research,"['c', 'd']",True,True,90625,67792
+t13_independent,add_challenge,research,"['c', 'd']",True,True,87084,73042
+t13_independent,withdraw_public_permission,public,"['c', 'd']",True,True,82166,73667
+t13_repeated,retract_observation,research,"['c', 'd']",True,True,80333,66458
+t13_repeated,add_challenge,research,"['c', 'd']",True,True,85459,72292
+t13_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,79375,66125
+t13_circular,retract_observation,research,[],True,True,60458,53542
+t13_circular,add_challenge,research,"['c', 'd']",True,True,61000,51708
+t13_circular,withdraw_public_permission,public,[],True,True,49750,46791
+t13_shared_tool,retract_observation,research,"['c', 'd']",True,True,86792,74291
+t13_shared_tool,add_challenge,research,"['c', 'd']",True,True,102625,97000
+t13_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,91584,74000
+t13_hidden,retract_observation,research,"['c', 'd']",True,True,103541,69625
+t13_hidden,add_challenge,research,"['c', 'd']",True,True,86667,74042
+t13_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,77750,68834
+t13_conflict,retract_observation,research,"['c', 'd']",True,True,89334,78292
+t13_conflict,add_challenge,research,"['c', 'd']",True,True,104042,85208
+t13_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,288417,79417
+t14_independent,retract_observation,research,"['c', 'd']",True,True,111416,102917
+t14_independent,add_challenge,research,"['c', 'd']",True,True,100167,86500
+t14_independent,withdraw_public_permission,public,"['c', 'd']",True,True,89291,76958
+t14_repeated,retract_observation,research,"['c', 'd']",True,True,87792,74084
+t14_repeated,add_challenge,research,"['c', 'd']",True,True,97500,82583
+t14_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,84875,73625
+t14_circular,retract_observation,research,[],True,True,48042,45458
+t14_circular,add_challenge,research,"['c', 'd']",True,True,83042,52208
+t14_circular,withdraw_public_permission,public,[],True,True,50541,47792
+t14_shared_tool,retract_observation,research,"['c', 'd']",True,True,99542,83709
+t14_shared_tool,add_challenge,research,"['c', 'd']",True,True,107375,93750
+t14_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,94459,86167
+t14_hidden,retract_observation,research,"['c', 'd']",True,True,90792,80042
+t14_hidden,add_challenge,research,"['c', 'd']",True,True,98792,84166
+t14_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,106291,84208
+t14_conflict,retract_observation,research,"['c', 'd']",True,True,107750,87708
+t14_conflict,add_challenge,research,"['c', 'd']",True,True,118667,141875
+t14_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,103375,90750
+t15_independent,retract_observation,research,"['c', 'd']",True,True,96417,65083
+t15_independent,add_challenge,research,"['c', 'd']",True,True,80833,69458
+t15_independent,withdraw_public_permission,public,"['c', 'd']",True,True,74334,62375
+t15_repeated,retract_observation,research,"['c', 'd']",True,True,72375,60167
+t15_repeated,add_challenge,research,"['c', 'd']",True,True,76750,67000
+t15_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,70750,58333
+t15_circular,retract_observation,research,[],True,True,57166,52083
+t15_circular,add_challenge,research,"['c', 'd']",True,True,65292,55542
+t15_circular,withdraw_public_permission,public,[],True,True,53000,49333
+t15_shared_tool,retract_observation,research,"['c', 'd']",True,True,78625,68875
+t15_shared_tool,add_challenge,research,"['c', 'd']",True,True,95292,81000
+t15_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,86000,74250
+t15_hidden,retract_observation,research,"['c', 'd']",True,True,81125,63917
+t15_hidden,add_challenge,research,"['c', 'd']",True,True,92416,69416
+t15_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,95917,66333
+t15_conflict,retract_observation,research,"['c', 'd']",True,True,86792,74625
+t15_conflict,add_challenge,research,"['c', 'd']",True,True,91084,79209
+t15_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,93750,76042
+t16_independent,retract_observation,research,"['c', 'd']",True,True,83084,77167
+t16_independent,add_challenge,research,"['c', 'd']",True,True,90791,78958
+t16_independent,withdraw_public_permission,public,"['c', 'd']",True,True,91125,74292
+t16_repeated,retract_observation,research,"['c', 'd']",True,True,102708,71875
+t16_repeated,add_challenge,research,"['c', 'd']",True,True,91709,77250
+t16_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,81583,68208
+t16_circular,retract_observation,research,[],True,True,53250,51750
+t16_circular,add_challenge,research,"['c', 'd']",True,True,66625,57083
+t16_circular,withdraw_public_permission,public,[],True,True,51667,50375
+t16_shared_tool,retract_observation,research,"['c', 'd']",True,True,92416,80208
+t16_shared_tool,add_challenge,research,"['c', 'd']",True,True,99875,86792
+t16_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,91459,79125
+t16_hidden,retract_observation,research,"['c', 'd']",True,True,85250,72375
+t16_hidden,add_challenge,research,"['c', 'd']",True,True,92375,80834
+t16_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,93000,73042
+t16_conflict,retract_observation,research,"['c', 'd']",True,True,94333,85042
+t16_conflict,add_challenge,research,"['c', 'd']",True,True,103417,89542
+t16_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,119958,86958
+t17_independent,retract_observation,research,"['c', 'd']",True,True,95666,82292
+t17_independent,add_challenge,research,"['c', 'd']",True,True,108667,99250
+t17_independent,withdraw_public_permission,public,"['c', 'd']",True,True,97166,82708
+t17_repeated,retract_observation,research,"['c', 'd']",True,True,94000,81000
+t17_repeated,add_challenge,research,"['c', 'd']",True,True,104583,90625
+t17_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,96625,89917
+t17_circular,retract_observation,research,[],True,True,54833,54875
+t17_circular,add_challenge,research,"['c', 'd']",True,True,66916,61083
+t17_circular,withdraw_public_permission,public,[],True,True,56541,51917
+t17_shared_tool,retract_observation,research,"['c', 'd']",True,True,114708,89416
+t17_shared_tool,add_challenge,research,"['c', 'd']",True,True,110625,97917
+t17_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,125916,91333
+t17_hidden,retract_observation,research,"['c', 'd']",True,True,95833,82666
+t17_hidden,add_challenge,research,"['c', 'd']",True,True,101583,88416
+t17_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,106500,80916
+t17_conflict,retract_observation,research,"['c', 'd']",True,True,103666,92125
+t17_conflict,add_challenge,research,"['c', 'd']",True,True,112917,99750
+t17_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,103292,88958
+t18_independent,retract_observation,research,"['c', 'd']",True,True,91833,68666
+t18_independent,add_challenge,research,"['c', 'd']",True,True,74333,61292
+t18_independent,withdraw_public_permission,public,"['c', 'd']",True,True,64833,53458
+t18_repeated,retract_observation,research,"['c', 'd']",True,True,65250,52042
+t18_repeated,add_challenge,research,"['c', 'd']",True,True,87334,79833
+t18_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,65208,52417
+t18_circular,retract_observation,research,[],True,True,44375,41166
+t18_circular,add_challenge,research,"['c', 'd']",True,True,56167,46792
+t18_circular,withdraw_public_permission,public,[],True,True,43125,40541
+t18_shared_tool,retract_observation,research,"['c', 'd']",True,True,73750,60625
+t18_shared_tool,add_challenge,research,"['c', 'd']",True,True,98709,67542
+t18_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,70000,62084
+t18_hidden,retract_observation,research,"['c', 'd']",True,True,70000,56042
+t18_hidden,add_challenge,research,"['c', 'd']",True,True,72000,60708
+t18_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,66625,56667
+t18_conflict,retract_observation,research,"['c', 'd']",True,True,74500,62417
+t18_conflict,add_challenge,research,"['c', 'd']",True,True,81750,69458
+t18_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,75083,62292
+t19_independent,retract_observation,research,"['c', 'd']",True,True,75333,63375
+t19_independent,add_challenge,research,"['c', 'd']",True,True,83209,70625
+t19_independent,withdraw_public_permission,public,"['c', 'd']",True,True,76708,65041
+t19_repeated,retract_observation,research,"['c', 'd']",True,True,78916,61708
+t19_repeated,add_challenge,research,"['c', 'd']",True,True,91250,68542
+t19_repeated,withdraw_public_permission,public,"['c', 'd']",True,True,69208,59709
+t19_circular,retract_observation,research,[],True,True,45708,42459
+t19_circular,add_challenge,research,"['c', 'd']",True,True,56875,47375
+t19_circular,withdraw_public_permission,public,[],True,True,43916,41458
+t19_shared_tool,retract_observation,research,"['c', 'd']",True,True,83666,73416
+t19_shared_tool,add_challenge,research,"['c', 'd']",True,True,308625,96292
+t19_shared_tool,withdraw_public_permission,public,"['c', 'd']",True,True,82791,69958
+t19_hidden,retract_observation,research,"['c', 'd']",True,True,78083,63500
+t19_hidden,add_challenge,research,"['c', 'd']",True,True,80584,69625
+t19_hidden,withdraw_public_permission,public,"['c', 'd']",True,True,83459,62333
+t19_conflict,retract_observation,research,"['c', 'd']",True,True,89166,77625
+t19_conflict,add_challenge,research,"['c', 'd']",True,True,93459,90292
+t19_conflict,withdraw_public_permission,public,"['c', 'd']",True,True,91292,74250

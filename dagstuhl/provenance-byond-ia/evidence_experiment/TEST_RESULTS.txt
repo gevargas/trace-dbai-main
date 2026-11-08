@@ -1,0 +1,18 @@
+test_all_revision_equivalences_and_unrelated_preservation (test_experiment.EvidenceTests.test_all_revision_equivalences_and_unrelated_preservation) ... ok
+test_baselines_fail_on_distinct_failure_modes (test_experiment.EvidenceTests.test_baselines_fail_on_distinct_failure_modes) ... ok
+test_fixture_count_and_graph_sizes (test_experiment.EvidenceTests.test_fixture_count_and_graph_sizes) ... ok
+test_oracle_metadata_cannot_affect_engine (test_experiment.EvidenceTests.test_oracle_metadata_cannot_affect_engine) ... ok
+test_permission_withdrawal_is_purpose_specific (test_experiment.EvidenceTests.test_permission_withdrawal_is_purpose_specific) ... ok
+test_permutation_and_identifier_invariance (test_experiment.EvidenceTests.test_permutation_and_identifier_invariance) ... ok
+test_random_graphs_against_path_oracle (test_experiment.EvidenceTests.test_random_graphs_against_path_oracle) ... ok
+test_retraction_with_alternative_support (test_experiment.EvidenceTests.test_retraction_with_alternative_support) ... ok
+test_typed_against_independent_completion_oracle (test_experiment.EvidenceTests.test_typed_against_independent_completion_oracle) ... ok
+test_unaccepted_annotation_cannot_ground_claim (test_experiment.EvidenceTests.test_unaccepted_annotation_cannot_ground_claim) ... ok
+test_ungrounded_cycle_and_nonexplosive_conflict (test_experiment.EvidenceTests.test_ungrounded_cycle_and_nonexplosive_conflict) ... ok
+test_validation_rejects_dangling_edges (test_experiment.EvidenceTests.test_validation_rejects_dangling_edges) ... ok
+test_witness_edges_are_admissible_and_origin_reachable (test_experiment.EvidenceTests.test_witness_edges_are_admissible_and_origin_reachable) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.156s
+
+OK

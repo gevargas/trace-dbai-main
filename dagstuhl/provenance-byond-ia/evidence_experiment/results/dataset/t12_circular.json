@@ -1,0 +1,212 @@
+{
+  "id": "t12_circular",
+  "template": 12,
+  "condition": "circular",
+  "domain": "synthetic cultural repository",
+  "synthetic": true,
+  "nodes": [
+    {
+      "id": "ou",
+      "kind": "observation",
+      "label": "Unrelated observation",
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "d",
+      "kind": "claim",
+      "label": "Downstream catalogue description",
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "o1",
+      "kind": "observation",
+      "label": "Synthetic observation A",
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "n1",
+      "kind": "document",
+      "label": "Unrelated catalogue item 2",
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "u",
+      "kind": "claim",
+      "label": "Unrelated documented claim",
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "document",
+      "label": "Source account B",
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "s1",
+      "kind": "document",
+      "label": "Source account A",
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "n0",
+      "kind": "document",
+      "label": "Unrelated catalogue item 1",
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "c",
+      "kind": "claim",
+      "label": "Synthetic claim about a ritual event",
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "ouu",
+      "src": "ou",
+      "dst": "u",
+      "kind": "supports",
+      "mode": "observed",
+      "accepted": true,
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "noise0",
+      "src": "n0",
+      "dst": "ou",
+      "kind": "derivedFrom",
+      "mode": "observed",
+      "accepted": true,
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "noise1",
+      "src": "n1",
+      "dst": "ou",
+      "kind": "derivedFrom",
+      "mode": "observed",
+      "accepted": true,
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "cd",
+      "src": "c",
+      "dst": "d",
+      "kind": "supports",
+      "mode": "observed",
+      "accepted": true,
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "s2c",
+      "src": "s2",
+      "dst": "c",
+      "kind": "supports",
+      "mode": "observed",
+      "accepted": true,
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "cy1",
+      "src": "s1",
+      "dst": "s2",
+      "kind": "supports",
+      "mode": "observed",
+      "accepted": true,
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "s1c",
+      "src": "s1",
+      "dst": "c",
+      "kind": "supports",
+      "mode": "observed",
+      "accepted": true,
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    },
+    {
+      "id": "cy2",
+      "src": "s2",
+      "dst": "s1",
+      "kind": "supports",
+      "mode": "observed",
+      "accepted": true,
+      "active": true,
+      "purposes": [
+        "research",
+        "public"
+      ]
+    }
+  ],
+  "focus": "c",
+  "pair": [
+    "s1",
+    "s2"
+  ],
+  "incomplete": [],
+  "snapshot": "v0"
+}
